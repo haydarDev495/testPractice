@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CustomView: UIView {
     
@@ -25,9 +26,10 @@ class CustomView: UIView {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        imageView.backgroundColor = .blue
         contentView.layer.borderWidth = 3
         contentView.layer.borderColor = UIColor.orange.cgColor
+        let url = URL(string: "https://i.pinimg.com/originals/99/0d/51/990d51a753cca67f2a0fa1c990930625.jpg")
+        imageView.kf.setImage(with: url)
     }
     
     private func setupContentView() {

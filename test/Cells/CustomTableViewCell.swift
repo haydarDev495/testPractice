@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Kingfisher
 
 class CustomTableViewCell: UITableViewCell {
 
@@ -20,7 +21,8 @@ class CustomTableViewCell: UITableViewCell {
     }
     
     func configure(viewModel: ViewModel) {
-        
+        let url = URL(string: "https://a.d-cd.net/5f31b2ds-960.jpg")
+        xibImageView.kf.setImage(with: url)
         topLabel.text = viewModel.title
         bottomLabel.text = viewModel.subTitle
     }
