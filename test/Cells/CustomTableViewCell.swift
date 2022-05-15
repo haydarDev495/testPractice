@@ -13,12 +13,15 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var topLabel: UILabel!
     @IBOutlet weak var xibImageView: UIImageView!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        
         topLabel.text = "MOUNTAIN"
         bottomLabel.text = "NATURE"
     }
     
+    func configure(viewModel: ViewModel) {
+        
+        topLabel.text = viewModel.title
+        bottomLabel.text = viewModel.subTitle
+    }
 }

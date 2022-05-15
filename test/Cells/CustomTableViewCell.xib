@@ -35,7 +35,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwe-zE-iEr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vwe-zE-iEr">
                                 <rect key="frame" x="0.0" y="68" width="196" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="awI-kY-5Mu"/>
@@ -46,6 +46,8 @@
                             </label>
                         </subviews>
                         <constraints>
+                            <constraint firstItem="Vwe-zE-iEr" firstAttribute="top" secondItem="kVI-z5-8by" secondAttribute="bottom" constant="8" symbolic="YES" id="PZc-NE-SRm"/>
+                            <constraint firstItem="Vwe-zE-iEr" firstAttribute="leading" secondItem="cIU-Hr-F14" secondAttribute="leading" id="YFJ-0N-yyq"/>
                             <constraint firstItem="kVI-z5-8by" firstAttribute="top" secondItem="cIU-Hr-F14" secondAttribute="top" constant="10" id="fc0-nb-rGD"/>
                             <constraint firstAttribute="bottom" secondItem="Vwe-zE-iEr" secondAttribute="bottom" constant="10" id="wg1-65-GE8"/>
                         </constraints>

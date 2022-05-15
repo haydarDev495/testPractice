@@ -8,13 +8,12 @@
 import UIKit
 
 class AnotherViewController: UIViewController {
-
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         delegate()
     }
+    
     func delegate() {
         tableView.delegate = self
         tableView.dataSource = self
@@ -29,9 +28,8 @@ extension AnotherViewController : UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: String(describing: CustomTableViewCell.self)) as! CustomTableViewCell
+        cell.configure(viewModel: ViewModel(imageUrl: "", title: "string: \(indexPath.row)", subTitle: "section: \(indexPath.section)"))
         
         return cell
     }
-    
-    
 }
