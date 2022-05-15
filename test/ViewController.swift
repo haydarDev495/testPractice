@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     @IBAction func nextButtonAction(_ sender: Any) {
         
         let anotherVC = AnotherViewController()
-        navigationController?.pushViewController(anotherVC, animated: true)
+        navigationController?.pushViewController(anotherVC, animated: true )
     }
     
 }
