@@ -11,6 +11,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let mercedes = Car(name: "Mercedes Benz", countWheel: 4, color: "Black")
+        mercedes.signal()
+        mercedes.drive()
     }
 
     @IBAction func nextButtonAction(_ sender: Any) {
