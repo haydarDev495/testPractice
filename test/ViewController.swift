@@ -7,8 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, DelegateVC{
+    
+    @IBOutlet weak var labelTextFromDelegate: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -17,9 +19,25 @@ class ViewController: UIViewController {
         mercedes.drive()
     }
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "getData" {
+            let destinationVC = segue.destination as! DelegateViewController
+            destinationVC.delegate = self
+        }
+    }
+    
     @IBAction func nextButtonAction(_ sender: Any) {
         let anotherVC = AnotherViewController()
         navigationController?.pushViewController(anotherVC, animated: true )
     }
+    
+    func fillLabelWih(info: String) {
+        labelTextFromDelegate.text = info
+    }
+    
+    @IBAction func goToDelegateScreenButtonAction(_ sender: Any) {
+        
+    }
+    
 }
 

@@ -11,6 +11,7 @@
 		0D172D4128311BB300F2A52E /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D172D4028311BB300F2A52E /* CustomView.xib */; };
 		0D172D4328311BCE00F2A52E /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D172D4228311BCE00F2A52E /* CustomView.swift */; };
 		0D172D462831503D00F2A52E /* TransportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D172D452831503D00F2A52E /* TransportViewController.swift */; };
+		0D29632A283521AA0028E7CC /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D296329283521A90028E7CC /* DelegateViewController.swift */; };
 		0D8B9CE8282FD683008C050A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B9CE7282FD683008C050A /* AppDelegate.swift */; };
 		0D8B9CEA282FD683008C050A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B9CE9282FD683008C050A /* SceneDelegate.swift */; };
 		0D8B9CEC282FD683008C050A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D8B9CEB282FD683008C050A /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 		0D172D4028311BB300F2A52E /* CustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 		0D172D4228311BCE00F2A52E /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		0D172D452831503D00F2A52E /* TransportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportViewController.swift; sourceTree = "<group>"; };
+		0D296329283521A90028E7CC /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
 		0D8B9CE4282FD683008C050A /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D8B9CE7282FD683008C050A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D8B9CE9282FD683008C050A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				0D8B9CE7282FD683008C050A /* AppDelegate.swift */,
 				0D8B9CE9282FD683008C050A /* SceneDelegate.swift */,
 				0D8B9CEB282FD683008C050A /* ViewController.swift */,
+				0D296329283521A90028E7CC /* DelegateViewController.swift */,
 				0D8B9CED282FD683008C050A /* Main.storyboard */,
 				0D8B9CF0282FD688008C050A /* Assets.xcassets */,
 				0D8B9CF2282FD688008C050A /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 				0D8B9CE8282FD683008C050A /* AppDelegate.swift in Sources */,
 				0D172D4328311BCE00F2A52E /* CustomView.swift in Sources */,
 				0D172D462831503D00F2A52E /* TransportViewController.swift in Sources */,
+				0D29632A283521AA0028E7CC /* DelegateViewController.swift in Sources */,
 				0D8B9CFD282FD8B7008C050A /* AnotherViewController.swift in Sources */,
 				0D172D3E2831190100F2A52E /* ViewModel.swift in Sources */,
 				0D8B9CEA282FD683008C050A /* SceneDelegate.swift in Sources */,
